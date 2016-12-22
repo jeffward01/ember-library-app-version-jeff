@@ -1,0 +1,26 @@
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+
+
+@import "bootstrap";
+
+
+body {
+  padding-top: 20px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.library-item {
+  min-height: 150px;
+}
+.subpageHeader{
+	height: 200px !important;
+}
+
+.la-textArea{
+	resize:none;
+}
